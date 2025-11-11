@@ -15,7 +15,7 @@ public class MultiClient {
   public void comunica() {
     for (;;)                                     // ciclo infinito: termina con FINE
     try{
-      System.out.println("4 ... utente, inserisci la stringa da trasmettere al server:");
+      System.out.println("123123 ... utente, inserisci la stringa da trasmettere al server:");
       stringaUtente = tastiera.readLine();
       //la spedisco al server 
       System.out.println("5 ... invio la stringa al server e attendo ...");
